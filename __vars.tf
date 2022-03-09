@@ -6,3 +6,7 @@ variable "athena_columns" {
     console = "string"
   }
 }
+
+variable "project_name" {
+  default = "my-new-project"
+}

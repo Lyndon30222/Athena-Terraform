@@ -9,7 +9,6 @@ terraform {
 
 provider "aws" {
   region  = "eu-west-2"
-  profile = "351312122817-its-user" # make sure we use sandbox creds (change daily) 
 }
 
 # create a random string for appending to resuorces that require uniqueness globally
